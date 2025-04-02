@@ -115,3 +115,54 @@ for (let i = 2; i <= y; i++) {
 }
 
 console.log(c); 
+
+
+// if ... else
+
+let years = 20;
+if (years >= 20) {
+    console.log("adult")
+} else {
+    console.log("child")
+}
+
+
+// Write a program that takes a positive integer n as input and outputs the sum of all numbers between 1 and n that are divisible by 3 or 5 (or both).
+
+for (let x = 0; x <= 10; x++) {
+    if (x % 3 === 0 && x % 5 === 0) {
+        console.log("X is divisible by both 3 and 5")
+    } else if (x % 3 === 0) {
+        console.log("X is divisible by 3")
+    } else if (x % 5 === 0) {
+        console.log("X is divisible by 5")
+    } 
+}
+
+
+// OBJECTS
+
+// Objects - complex data structures that can store multiple values as key pairs.
+// are defined using curly braces {}
+// e.g 
+let Ian = {"fullname": "ian", "age": 22, "race": "black"};
+console.log(Ian.fullname)
+console.log(Ian)
+
+
+// Accessing Object Properties
+
+// you can access object properties using dot notation or square brackets
+let person = {name: "John", age: 30, isStudent: false};
+console.log(person.name)
+console.log(person['age'])
+
+
+// OBJECTS METHODS - functions stored as values in object properties.
+// allow one to perform action on objects data.
+// e.g
+let car = { type: "audi", model: 2023, seller: function() {
+    console.log("This is " + this.type + this.model + "!")
+} }
+
+car.seller()

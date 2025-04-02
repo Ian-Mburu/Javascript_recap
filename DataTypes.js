@@ -124,4 +124,20 @@ function reverseString(str) {
 
 console.log(reverseString("hello")); // olleh
 
+// Type of
+
+x = 100
+console.log(typeof(x)) // number
+
+y = "Coding for life"
+console.log(typeof(y)) // string
+
+fruits = [ 'mango', 'grapes', 'apple' ]
+console.log(typeof(fruits))  // object
+
+let truth = true
+console.log(typeof(truth)) // boolean
+
+num = [ 3, 6, 8 ]
+console.log(typeof(num)) // object
 
